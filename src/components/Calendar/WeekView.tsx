@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react'
 import DayCell from './DayCell'
 import { startOfWeek, addDays, formatWeekTitle } from '../../utils/date'
+import './WeekView.css'
 
 type Props = {
     anchorDate: Date

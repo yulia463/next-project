@@ -1,0 +1,37 @@
+.day-cell {
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.day-cell.in-range {
+    background-color: var(--color-in-range);
+    color: #000;
+}
+
+.day-cell.today {
+    border: 2px solid var(--color-today);
+    font-weight: 600;
+}
+
+.day-cell.out-month {
+    color: var(--color-out-month);
+}
+
+.day-cell:hover {
+    background-color: var(--color-primary-light);
+}
+
+.day-number {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+.day-cell {
+    padding: 12px 0;
+    font-size: 0.9rem;
+}

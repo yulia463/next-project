@@ -1,0 +1,29 @@
+.calendar-shell {
+    border: 1px solid var(--color-primary-light);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    background-color: #fff;
+}
+
+.scroll-pages {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    max-height: 400px; /* мобильная высота календаря */
+}
+
+.scroll-pages.week-mode .page,
+.scroll-pages.month-mode .page {
+    scroll-snap-align: start;
+    padding: 8px 0;
+}
+
+.legend {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 6px 0;
+    color: var(--color-text-light);
+}
+.scroll-pages {
+    max-height: 500px;
+}

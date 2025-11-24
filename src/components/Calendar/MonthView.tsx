@@ -2,7 +2,7 @@
 import React from 'react'
 import DayCell from './DayCell'
 import { startOfMonth, endOfMonth, startOfWeek, addDays, formatMonthTitle } from '../../utils/date'
-
+import './MonthView.css'
 
 type Props = {
     anchorDate: Date

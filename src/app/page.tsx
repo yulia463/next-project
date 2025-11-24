@@ -1,6 +1,6 @@
 "use client";
+
 import React, {useState} from 'react'
-import dynamic from 'next/dynamic'
 import Calendar from '../components/Calendar/Calendar'
 
 
@@ -11,8 +11,7 @@ export default function Home() {
   return (
       <div className="page-root">
         <main className="container">
-          <h1 className="title">Mobile Range Calendar — Demo</h1>
-
+          <h1 className="title">Mobile Calendar</h1>
 
           <div className="controls">
             <label>
@@ -34,11 +33,7 @@ export default function Home() {
               Месяц
             </label>
           </div>
-
-
           <Calendar mode={mode} />
-
-
           <p className="hint">Поддерживается жест прокрутки, snap и корректная обработка касания vs тап.</p>
         </main>
       </div>
