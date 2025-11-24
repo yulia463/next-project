@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { formatDayNumber, isSameDay } from '../../utils/date'
-
+import './DayCell.css'
 
 type Props = {
     date: Date

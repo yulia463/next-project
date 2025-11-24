@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react'
 import { formatPretty } from '../../utils/date'
+import './RangePreview.css'
 
 type Props = {
     start: Date | null

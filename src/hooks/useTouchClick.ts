@@ -3,8 +3,8 @@ import { useEffect, RefObject } from 'react';
 
 
 type Options = {
-    threshold?: number; // px
-    suppressClickMs?: number; // время, в течение которого click будет подавляться после движения
+    threshold?: number;
+    suppressClickMs?: number;
 };
 
 export default function useTouchClick(
